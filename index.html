@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kim Hyun Joong</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: linear-gradient(to bottom, #000000, #1a1a1a);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    header {
+      background: #111;
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #00ffc8;
+    }
+    section {
+      padding: 20px;
+      max-width: 700px;
+    }
+    form {
+      margin-top: 30px;
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background: #333;
+      border: none;
+      color: #fff;
+    }
+    input[type="submit"] {
+      background: #00ffc8;
+      color: #000;
+      cursor: pointer;
+    }
+    footer {
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kim Hyun Joong</h1>
+    <p>A tribute to the multi-talented star 💫</p>
+  </header>
+
+  <section>
+    <h2>Welcome Fans!</h2>
+    <p>This is a fan page for Kim Hyun Joong — singer, actor, performer, and inspiration to millions around the world.</p>
+
+    <form name="fanmail" netlify>
+      <h3>Send Him Fanmail 📬</h3>
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" rows="4" placeholder="Your message to Hyun Joong..." required></textarea>
+      <input type="submit" value="Send Message" />
+    </form>
+  </section>
+
+  <footer>
+    Website by a true fan 💖 | Not affiliated with Kim Hyun Joong
+  </footer>
+</body>
+</html>
